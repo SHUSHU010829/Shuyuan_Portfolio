@@ -1,2 +1,5 @@
 # Shuyuan_Portfolio
-Record about myself. Online Resume.
+
+Tools: 
+- React JS
+- Tailwind CSS
