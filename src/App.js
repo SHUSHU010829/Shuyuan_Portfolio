@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Header from "./components/Header";
 import Myself from "./components/Myself";
 import Specializing from "./components/Specializing";
 import Expertise from "./components/Expertise";
@@ -23,7 +22,6 @@ const App = (props) => {
 
   return (
     <div>
-      <Header />
       <Myself />
       <Specializing />
       <Expertise />
