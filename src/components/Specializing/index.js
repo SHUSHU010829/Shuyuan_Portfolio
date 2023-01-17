@@ -4,6 +4,7 @@ import MediumHeading from "../UI/MediumHeading";
 import SmallHeading from "../UI/SmallHeading";
 import Skill from "../UI/Skill";
 import { colors } from "../../style";
+import "./style.css";
 
 /**
  * @author
@@ -11,85 +12,67 @@ import { colors } from "../../style";
  **/
 
 const Specializing = (props) => {
-  const skills = [
-    {
-      skillName: "HTML/CSS",
-      desc: "Hands on experience in Html/Css",
-      value: 70,
-      textColor: colors.primaryColor,
-      pathColor: "#f2a154",
-    },
-    {
-      skillName: "JavaScript",
-      desc: "Hands on experience in JavaScript",
-      value: 90,
-      textColor: colors.primaryColor,
-      pathColor: "#f9f871",
-    },
-    {
-      skillName: "ReactJS",
-      desc: "Hands on experience in ReactJS",
-      value: 90,
-      textColor: colors.primaryColor,
-      pathColor: "#00af91",
-    },
-    {
-      skillName: "jQuery",
-      desc: "Hands on experience in Html/Css",
-      value: 60,
-      textColor: colors.primaryColor,
-      pathColor: "#845ec2",
-    },
-    {
-      skillName: "Bootstrap",
-      desc: "Hands on experience in Html/Css",
-      value: 70,
-      textColor: colors.primaryColor,
-      pathColor: "#C25E5E",
-    },
-    {
-      skillName: "NodeJS",
-      desc: "Hands on experience in Html/Css",
-      value: 70,
-      textColor: colors.primaryColor,
-      pathColor: "#54e346",
-    },
-    {
-      skillName: "PHP",
-      desc: "Hands on experience in Html/Css",
-      value: 80,
-      textColor: colors.primaryColor,
-      pathColor: "#111d5e",
-    },
-    {
-      skillName: "Mysql",
-      desc: "Hands on experience in Html/Css",
-      value: 70,
-      textColor: colors.primaryColor,
-      pathColor: "#f88f01",
-    },
-  ];
 
   return (
-    <div className="container">
+    <div className="container" data-aos="fade-up">
       <Card style={{ padding: "50px" }}>
-        <SmallHeading text="What I do" />
-        <MediumHeading text="Specializing in" />
-        <div
-          data-aos="fade-up"
-          className="flexRow wrap justify-sb"
-          style={{ padding: "30px" }}
-        >
-          {skills.map((skill, index) => (
-            <Skill
-              key={index}
-              skillName={skill.skillName}
-              desc={skill.desc}
-              value={skill.value}
-              textColor={colors.primaryColor}
-              pathColor={skill.pathColor}
-            />
-          ))}
+        <SmallHeading text="What I can do" />
+        <MediumHeading text="Skills" />
+        <div className="skill-box">
+          <span className="title">HTML/CSS/SCSS</span>
+          <div className="skill-bar">
+            <span className="skill-per html">
+            </span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <span className="title">JavaScript/ReactJS</span>
+          <div className="skill-bar">
+            <span className="skill-per js">
+            </span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <span className="title">React Native</span>
+          <div className="skill-bar">
+            <span className="skill-per reactnative">
+            </span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <span className="title">Flutter</span>
+          <div className="skill-bar">
+            <span className="skill-per flutter">
+            </span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <span className="title">Swift UI</span>
+          <div className="skill-bar">
+            <span className="skill-per swift">
+            </span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <span className="title">MongoDB</span>
+          <div className="skill-bar">
+            <span className="skill-per mongodb">
+            </span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <span className="title">FIGMA</span>
+          <div className="skill-bar">
+            <span className="skill-per figma">
+            </span>
+          </div>
+        </div>
+        <div className="skill-box">
+          <span className="title">Adobe PS/AI/XD</span>
+          <div className="skill-bar">
+            <span className="skill-per adobe">
+            </span>
+          </div>
         </div>
       </Card>
     </div>

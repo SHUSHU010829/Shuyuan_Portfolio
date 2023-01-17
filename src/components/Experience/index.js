@@ -13,12 +13,12 @@ import "./style.css";
 
 const percentage = 70;
 
-const Expertise = (props) => {
+const Experience = (props) => {
   return (
     <div className="container" style={{ marginTop: "50px", padding: "50px 0" }}>
       <div>
-        <SmallHeading text="Expertise" />
-        <MediumHeading text="Special Skills" />
+        <SmallHeading text="School & Work" />
+        <MediumHeading text="Experience" />
       </div>
       <Card
         style={{
@@ -51,4 +51,4 @@ const Expertise = (props) => {
   );
 };
 
-export default Expertise;
+export default Experience;
