@@ -45,7 +45,7 @@ const Specializing = (props) => {
       desc: "Hands on experience in Html/Css",
       value: 70,
       textColor: colors.primaryColor,
-      pathColor: "#845ec2",
+      pathColor: "#C25E5E",
     },
     {
       skillName: "NodeJS",

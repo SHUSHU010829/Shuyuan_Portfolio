@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
-import Hero from "./components/Hero";
+import Header from "./components/Header";
+import Myself from "./components/Myself";
 import Specializing from "./components/Specializing";
 import Expertise from "./components/Expertise";
 import LatestProjects from "./components/LatestProjects";
-import Qualification from "./components/Qualification";
+// import Qualification from "./components/Qualification";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,7 +23,8 @@ const App = (props) => {
 
   return (
     <div>
-      <Hero />
+      <Header />
+      <Myself />
       <Specializing />
       <Expertise />
       <LatestProjects />
