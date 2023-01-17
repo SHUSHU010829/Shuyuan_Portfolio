@@ -3,7 +3,7 @@ import Myself from "./components/Myself";
 import Specializing from "./components/Specializing";
 import Experience from "./components/Experience";
 import LatestProjects from "./components/LatestProjects";
-// import Qualification from "./components/Qualification";
+import Qualification from "./components/Qualification";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,7 +26,7 @@ const App = (props) => {
       <Specializing />
       <Experience />
       <LatestProjects />
-      {/* <Qualification /> */}
+      <Qualification />
       <Footer />
     </div>
   );

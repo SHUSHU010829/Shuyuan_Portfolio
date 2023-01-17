@@ -1,5 +1,32 @@
 /* SKILLS */
 
+.container {
+    grid-template-columns: repeat(2, 350);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.skills_content {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+    border-radius: 1.25rem;
+}
+
+.skills_content:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.skills_title {
+    color: #4D756B;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 .title-text {
     text-align: center;
     background-color: crimson;
@@ -111,6 +138,12 @@
 
 .skill-per.mongodb {
     width: 56%;
+    background-color: #76a0d6;
+    animation-delay: 1.3s;
+}
+
+.skill-per.firebase {
+    width: 35%;
     background-color: #76a0d6;
     animation-delay: 1.3s;
 }
