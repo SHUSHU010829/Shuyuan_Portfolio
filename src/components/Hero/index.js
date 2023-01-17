@@ -40,10 +40,10 @@ const Hero = (props) => {
             
             <div className="flexRow" style={{ margin: "30px 0" }}>
               <div>
-                <Button label="Hire Me" />
+                <Button label="Contact Me" />
               </div>
               <div className="mlr-10">
-                <Button label="Download CV" inverse={true} />
+                <Button label="Download Resume" inverse={true} />
               </div>
             </div>
           </div>
