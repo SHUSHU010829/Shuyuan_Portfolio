@@ -29,8 +29,8 @@ const Myself = (props) => {
           <li><a href="#" className="nav-links">Project</a></li>
           <li><a href="#" className="nav-links">Blog</a></li>
           <li> <a href="#" className="nav-links">Contact</a></li>
-          <li> <a href="#" className="nav-links-mobile">My Resume</a></li>
-          <button>My Resume</button>
+          <li> <a href="#" className="nav-links-mobile">Download Resume</a></li>
+          <button>Download Resume</button>
         </ul>
       </nav>
       {/* ------- Self ---------*/}

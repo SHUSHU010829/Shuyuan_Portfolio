@@ -3,7 +3,7 @@ import SmallHeading from "../UI/SmallHeading";
 import MediumHeading from "../UI/MediumHeading";
 import Button from "../UI/Button";
 import Tile from "../UI/Tile";
-// import me from "../../assets/images/me-left.png";
+import { FaCalendar } from "react-icons/fa";
 
 import "./style.css";
 
@@ -14,51 +14,19 @@ import "./style.css";
 
 const Qualification = (props) => {
   return (
-    <div className="container" style={{ padding: "50px 0" }}>
+    <div className="container qalification_container" style={{ padding: "50px 0" }}>
       <SmallHeading text="Qualifications" />
-      <MediumHeading text={"My Education"} />
-      <div
-        className="flexRow flexCol align-center justify-sb"
-        style={{ margin: "50px 0" }}
-      >
-        <div data-aos="fade-up-right">
-          {/* <img src={me} alt="" /> */}
-          <div
-            style={{
-              background: "#fff",
-              padding: "10px 10px",
-              boxSizing: "border-box",
-              display: "flex",
-              justifyContent: "center",
-              borderRadius: "20px",
-            }}
-          >
-            <div className="mlr-10">
-              <Button label="Hire Me" />
-            </div>
-            <div className="mlr-10">
-              <Button label="Download CV" inverse={true} />
-            </div>
-          </div>
-        </div>
-        <div>
-          <Tile
-            title="MAKAUT"
-            mediumTitle="Computer Science & Engg."
-            desc="lorem ipsum text"
-          />
-          <Tile
-            title="MAKAUT"
-            mediumTitle="Computer Science & Engg."
-            desc="lorem ipsum text"
-          />
-          <Tile
-            title="MAKAUT"
-            mediumTitle="Computer Science & Engg."
-            desc="lorem ipsum text"
-          />
-        </div>
-      </div>
+      <MediumHeading text={"My Personal Journey"} />
+      <Tile
+        title="SoftMobile Technology Corporation"
+        mediumTitle="Frontend Intern"
+        desc="2022.07-Present"
+      />
+      <Tile
+        title="FCU iOSClub"
+        mediumTitle="Vice Director & Word Processing"
+        desc="2020-2022"
+      />
     </div>
   );
 };

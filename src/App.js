@@ -24,9 +24,9 @@ const App = (props) => {
     <div>
       <Myself />
       <Specializing />
-      <Experience />
-      <LatestProjects />
+      {/* <Experience /> */}
       <Qualification />
+      <LatestProjects />
       <Footer />
     </div>
   );
