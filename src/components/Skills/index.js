@@ -8,10 +8,10 @@ import "./style.css";
 
 /**
  * @author
- * @function Specializing
+ * @function Skills
  **/
 
-const Specializing = (props) => {
+const Skills = (props) => {
 
   return (
     <div className="container" id='skills'>
@@ -104,4 +104,4 @@ const Specializing = (props) => {
   );
 };
 
-export default Specializing;
+export default Skills;

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import Myself from "./components/Myself";
-import Specializing from "./components/Specializing";
+import Skills from "./components/Skills";
 import Experience from "./components/Experience";
-import LatestProjects from "./components/LatestProjects";
+import Projects from "./components/Projects";
 import Qualification from "./components/Qualification";
 import Footer from "./components/Footer";
 import ScrollUp from "./components/ScrollUp";
@@ -24,10 +24,10 @@ const App = (props) => {
   return (
     <div>
       <Myself />
-      <Specializing />
+      <Skills />
       {/* <Experience /> */}
       <Qualification />
-      <LatestProjects />
+      <Projects />
       <Footer />
       <ScrollUp/>
     </div>

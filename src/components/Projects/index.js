@@ -8,10 +8,10 @@ import "./style.css";
 
 /**
  * @author
- * @function LatestProjects
+ * @function Projects
  **/
 
-const LatestProjects = (props) => {
+const Projects = (props) => {
   return (
     <div
       id='project'
@@ -38,4 +38,4 @@ const LatestProjects = (props) => {
   );
 };
 
-export default LatestProjects;
+export default Projects;

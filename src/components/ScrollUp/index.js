@@ -5,7 +5,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 /**
  * @author
- * @function Footer
+ * @function ScrollUp
  **/
 
 const ScrollUp = (props) => {
