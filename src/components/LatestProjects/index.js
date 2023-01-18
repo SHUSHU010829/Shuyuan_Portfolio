@@ -14,6 +14,7 @@ import "./style.css";
 const LatestProjects = (props) => {
   return (
     <div
+      id='project'
       className="container"
       style={{ marginTop: "50px", marginBottom: "50px" }}
       data-aos="zoom-in-up"

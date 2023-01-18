@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../UI/Button";
 import "./style.css";
-import { FaGithub, FaInstagram, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaBehance, FaLinkedinIn,FaPencilAlt } from "react-icons/fa";
 
 /**
  * @author
@@ -16,17 +16,17 @@ const Footer = (props) => {
           <div className="footer_container">
             <h1 className="footer_title">Shuyuan</h1>
             <div className="footer_social">
-              <a className="footer_social-link" href="#" target="_blank">
-                <FaFacebookSquare/>
+              <a className="footer_social-link" href="https://forshu.com/" target="_blank">
+                <FaPencilAlt/>
               </a>
-              <a className="footer_social-link" href="#" target="_blank">
-                <FaInstagram/>
+              <a className="footer_social-link" href="https://www.behance.net/annie55063bf69" target="_blank">
+                <FaBehance/>
               </a>
-              <a className="footer_social-link" href="#" target="_blank">
+              <a className="footer_social-link" href="https://github.com/FOR-Shu" target="_blank">
                 <FaGithub/>
               </a>
-              <a className="footer_social-link" href="#" target="_blank">
-                <FaLinkedin/>
+              <a className="footer_social-link" href="https://www.linkedin.com/in/shuyuanchuang/" target="_blank">
+                <FaLinkedinIn/>
               </a>
             </div>
             <span className="footer_copy">&#169; ShuyuanChaung. All rights reserved.</span>
@@ -34,22 +34,6 @@ const Footer = (props) => {
         </footer>
       </div>
     </div>
-    // <div className="container">
-    //   <div
-    //     className="flexRow flexCol justify-sb align-center"
-    //     style={{ margin: "50px 0" }}
-    //   >
-    //     <div className="flexRow">
-    //       <div className="mtb-10">
-    //         <SocialConnect />
-    //       </div>
-    //     </div>
-    //     {/* <div className="conversationContainer primaryBgColor mtb-10">
-    //       <img src={conversation} alt="" />
-    //     </div> */}
-    //   </div>
-    //   {/* <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Dave Gandy - Flaticon</a> */}
-    // </div>
   );
 };
 

@@ -14,7 +14,7 @@ import "./style.css";
 const Specializing = (props) => {
 
   return (
-    <div className="container">
+    <div className="container" id='skills'>
       <Card style={{ padding: "50px" }}>
         <SmallHeading text="What I can do" />
         <MediumHeading text="Skills" />

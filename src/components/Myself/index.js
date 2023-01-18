@@ -15,8 +15,10 @@ const Myself = (props) => {
     setClick(!click);
   }
 
+  const [activeNav, setActiveNav] = useState('#home')
+
   return (
-    <>
+    <div id='home'>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       {/* ------- Nav ---------*/}
       <nav className="navbarItems">
@@ -25,16 +27,16 @@ const Myself = (props) => {
           <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li><a href="#" className="nav-links">About</a></li>
-          <li><a href="#" className="nav-links">Project</a></li>
-          <li><a href="#" className="nav-links">Blog</a></li>
-          <li> <a href="#" className="nav-links">Contact</a></li>
-          <li> <a href="#" className="nav-links-mobile">Download Resume</a></li>
-          <button>Download Resume</button>
+          <li><a href="#home" className="nav-links" onClick={() => setActiveNav("#home")}>Home</a></li>
+          <li><a href="#skills" className="nav-links" onClick={() => setActiveNav("#skills")}>Skills</a></li>
+          <li><a href="#project" className="nav-links" onClick={() => setActiveNav("#project")}>Project</a></li>
+          <li><a href="#contact" className="nav-links">Contact</a></li>
+          <li><a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" className="nav-links-mobile" target="_blank">Download Resume</a></li>
+          <button><a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" target="_blank">Download Resume</a></button>
         </ul>
       </nav>
       {/* ------- Self ---------*/}
-      <div className="container" style={{ marginTop: "150px" }}>
+      <div className="container" style={{ marginTop: "150px" }} >
         <div className="flexRow flexCol justify-sb align-center">
           <div data-aos="fade-right">
             <p className="uppercase bold-500 textColor ls-1 mtb-10">
@@ -44,10 +46,10 @@ const Myself = (props) => {
             <p className="font-12 grey mtb-10">Frontend Developer & UI Designer for Web and Apps.</p>
             <div className="flexRow" style={{ margin: "30px 0" }}>
               <div>
-                <Button label="Contact Me" />
+                <Button label="Download Resume" herf="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" />
               </div>
               <div className="mlr-10">
-                <Button label="Download Resume" inverse={true} />
+                <Button label="Go to my Blog" inverse={true} herf="https://forshu.com/" />
               </div>
             </div>
           </div>
@@ -59,8 +61,7 @@ const Myself = (props) => {
           </div>
         </div>
       </div>
-
-    </>
+    </div>
   );
 };
 

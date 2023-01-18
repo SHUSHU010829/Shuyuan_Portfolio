@@ -5,6 +5,7 @@ import Experience from "./components/Experience";
 import LatestProjects from "./components/LatestProjects";
 import Qualification from "./components/Qualification";
 import Footer from "./components/Footer";
+import ScrollUp from "./components/ScrollUp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -28,6 +29,7 @@ const App = (props) => {
       <Qualification />
       <LatestProjects />
       <Footer />
+      <ScrollUp/>
     </div>
   );
 };
