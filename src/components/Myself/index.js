@@ -38,7 +38,7 @@ const Myself = (props) => {
         <div className="flexRow flexCol justify-sb align-center">
           <div data-aos="fade-right">
             <p className="uppercase bold-500 textColor ls-1 mtb-10">
-              <span className="primaryColor">Hello,</span> I am Shuyuan Chuang
+              <span className="primaryColor">Hello,</span> I am Shuyuan Chuang ⸜(๑˙ᵕ ˙๑)⸝
             </p>
             <h1 className="textColor ls-1 mtb-10">Software Developer</h1>
             <p className="font-12 grey mtb-10">Frontend Developer & UI Designer for Web and Apps.</p>

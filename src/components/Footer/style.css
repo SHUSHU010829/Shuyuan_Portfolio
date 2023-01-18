@@ -21,3 +21,48 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+.footer {
+    background-color: rgb(246, 246, 246);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer_container {
+    padding: 2rem 0 6rem;
+}
+
+.footer_title {
+    color: #323232;
+}
+
+.footer_title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.125rem;
+}
+
+.footer_social-link {
+    background-color: #4D756B;
+    color: #f1f1f1;
+    font-size: 1.125rem;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    display: inline-flex;
+}
+
+.footer_social-link:hover {
+    background-color: #323232;
+}
+
+.footer_copy {
+    display: block;
+    margin-top: 4rem;
+    color: #323232;
+    text-align: center;
+    font-size: 12px;
+}
