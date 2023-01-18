@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Myself from "./components/Myself";
 import Skills from "./components/Skills";
-import Experience from "./components/Experience";
+import About from "./components/About";
 import Projects from "./components/Projects";
 import Qualification from "./components/Qualification";
 import Footer from "./components/Footer";
@@ -24,8 +24,8 @@ const App = (props) => {
   return (
     <div>
       <Myself />
+      <About />
       <Skills />
-      {/* <Experience /> */}
       <Qualification />
       <Projects />
       <Footer />

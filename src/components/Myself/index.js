@@ -27,7 +27,7 @@ const Myself = (props) => {
           <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li><a href="#home" className="nav-links" onClick={() => setActiveNav("#home")}>Home</a></li>
+          <li><a href="#" className="nav-links" onClick={() => setActiveNav("#home")}>Home</a></li>
           <li><a href="#skills" className="nav-links" onClick={() => setActiveNav("#skills")}>Skills</a></li>
           <li><a href="#project" className="nav-links" onClick={() => setActiveNav("#project")}>Project</a></li>
           <li><a href="#contact" className="nav-links">Contact</a></li>

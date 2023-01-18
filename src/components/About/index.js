@@ -13,12 +13,12 @@ import "./style.css";
 
 const percentage = 70;
 
-const Experience = (props) => {
+const About = (props) => {
   return (
     <div className="container" style={{ marginTop: "50px", padding: "50px 0" }}>
       <div>
-        <SmallHeading text="School & Work" />
-        <MediumHeading text="Experience" />
+        <MediumHeading text="About Me" />
+        <SmallHeading text="My introduction" />
       </div>
       <Card
         style={{
@@ -44,11 +44,11 @@ const Experience = (props) => {
           <h2 className="textColor mlr-10">Development</h2>
         </div>
         <p className="grey mtb-10 font-12">
-          JavaScript is one of the greatest programming language.
+          blablablablabla
         </p>
       </Card>
     </div>
   );
 };
 
-export default Experience;
+export default About;

@@ -29,7 +29,7 @@ const Footer = (props) => {
                 <FaLinkedinIn/>
               </a>
             </div>
-            <span className="footer_copy">&#169; ShuyuanChaung. All rights reserved.</span>
+            <span className="footer_copy">Built by ShuyuanChaung</span>
           </div>
         </footer>
       </div>
