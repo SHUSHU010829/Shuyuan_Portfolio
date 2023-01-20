@@ -89,6 +89,10 @@ button:hover {
     display: none;
 }
 
+/* .nav_links_web {
+    background-color:'#f00';
+} */
+
 @media (max-width: 860px) {
     .navbarItems {
         z-index: 99;
