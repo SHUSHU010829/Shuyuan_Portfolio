@@ -69,19 +69,16 @@
     display: none;
 }
 
-button {
-    padding: 0.8rem 1rem;
-    white-space: nowrap;
-    border-radius: 0.3rem;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
+.nav_button {
+    color:#fff;
+    background-image: linear-gradient(75deg, #134E5E,#71B280,#DAD299,#B0DAB9);
+    background-size: 300%;
+    background-position: left;
+    transition: 300ms background-position ease-in-out;
 }
 
-button:hover {
-    background-color: #151516;
+.nav_button:hover {
+    background-position: right;
     color: #fff;
 }
 
@@ -96,7 +93,6 @@ button:hover {
 @media (max-width: 860px) {
     .navbarItems {
         z-index: 99;
-
     }
 
     .nav-menu {

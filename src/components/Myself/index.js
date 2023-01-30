@@ -32,8 +32,8 @@ const Myself = (props) => {
           <li><a href="#project" className="nav-links" onClick={() => setActiveNav("#project")}>Project</a></li>
           <li><a href="#contact" className="nav-links">Contact</a></li>
           <li><a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" className="nav-links-mobile" target="_blank">Download Resume</a></li>
+          <a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" target="_blank"><button className="simple_button nav_button">Download Resume</button></a>
         </ul>
-        <a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" target="_blank"><button className="nav_links_web">Download Resume</button></a>
       </nav>
       {/* ------- Self ---------*/}
       <div className="container" style={{ marginTop: "150px" }} >
@@ -45,12 +45,13 @@ const Myself = (props) => {
             <h1 className="textColor ls-1 mtb-10">Software Developer</h1>
             <p className="font-12 grey mtb-10">Frontend Developer & UI Designer for Web and Apps.</p>
             <div className="flexRow" style={{ margin: "30px 0" }}>
-              <div>
+              <a herf="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" target='_blank'><button className="button simple_button">Download Resume</button></a>
+              {/* <div>
                 <Button label="Download Resume" herf="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" />
               </div>
               <div className="mlr-10">
                 <Button label="Go to my Blog" inverse={true} herf="https://forshu.com/" />
-              </div>
+              </div> */}
             </div>
           </div>
           {/* ------- logo pic ---------*/}

@@ -2,8 +2,8 @@ import React from "react";
 import Card from "../UI/Card";
 import MediumHeading from "../UI/MediumHeading";
 import SmallHeading from "../UI/SmallHeading";
-import Skill from "../UI/Skill";
-import { colors } from "../../style";
+// import Skill from "../UI/Skill";
+// import { colors } from "../../style";
 import "./style.css";
 
 /**

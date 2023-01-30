@@ -1,123 +1,178 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
 }
-body{
+
+body {
   background: url(./assets/images/bg.png);
   background-repeat: repeat;
 }
-.primaryColor{
+
+.primaryColor {
   color: #86A697;
 }
-.primaryBgColor{
+
+.primaryBgColor {
   background: #86A697;
 }
-.textColor{
+
+.textColor {
   color: #323232;
 }
-.grey{
+
+.grey {
   color: #aaaaaa;
 }
-.font-10{
+
+.font-10 {
   font-size: 10px;
 }
-.font-12{
+
+.font-12 {
   font-size: 12px;
 }
-.font-14{
+
+.font-14 {
   font-size: 14px;
 }
-.font-16{
+
+.font-16 {
   font-size: 16px;
 }
-.font-18{
+
+.font-18 {
   font-size: 18px;
 }
-.font-20{
+
+.font-20 {
   font-size: 20px;
 }
-.font-25{
+
+.font-25 {
   font-size: 25px;
 }
-.font-30{
+
+.font-30 {
   font-size: 30px;
 }
-.bold-300{
+
+.bold-300 {
   font-weight: 300;
 }
-.bold-400{
+
+.bold-400 {
   font-weight: 400;
 }
-.bold-500{
+
+.bold-500 {
   font-weight: 500;
 }
-.bold-600{
+
+.bold-600 {
   font-weight: 600;
 }
-.bold-700{
+
+.bold-700 {
   font-weight: 700;
 }
-.uppercase{
+
+.uppercase {
   text-transform: uppercase;
 }
-.capitalize{
+
+.capitalize {
   text-transform: capitalize;
 }
-.ls-1{
+
+.ls-1 {
   letter-spacing: 1px;
 }
-.mtb-10{
+
+.mtb-10 {
   margin: 10px 0;
 }
-.mlr-10{
+
+.mlr-10 {
   margin: 0 10px;
 }
-.m-auto{
+
+.m-auto {
   margin: 0 auto;
 }
-.ptb{
+
+.ptb {
   padding: 10px 0;
 }
-.plr-10{
+
+.plr-10 {
   padding: 0 10px;
 }
-.flexRow{
+
+.flexRow {
   display: flex;
 }
-.justify-sb{
+
+.justify-sb {
   justify-content: space-between;
 }
-.align-center{
+
+.align-center {
   align-items: center;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
-.container{
+
+.container {
   width: 900px;
   margin: 0 auto;
   /* position: relative; */
 }
 
-.wrap{
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.simple_button {
+  padding: 0.8rem 1rem;
+  white-space: nowrap;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.simple_button:hover {
+  background-color: #151516;
+  color: #fff;
+}
+
+.wrap {
   flex-wrap: wrap;
 }
 
-a{
+a {
   text-decoration: none;
   color: #323232;
 }
 
-@media screen and (max-width: 900px){
-  .container{
+@media screen and (max-width: 900px) {
+  .container {
     width: 100%;
   }
-  .flexCol{
+
+  .flexCol {
     flex-direction: column;
   }
-  .font-25{
+
+  .font-25 {
     font-size: 20px;
   }
 }

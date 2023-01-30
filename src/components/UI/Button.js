@@ -10,7 +10,7 @@ const Button = (props) => {
   return (
     <a
       href={props.herf}
-      target="_blank"
+      // target="_blank"
       style={{
         boxSizing: "border-box",
         padding: "10px 20px",
