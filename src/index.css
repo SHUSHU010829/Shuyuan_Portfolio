@@ -132,6 +132,11 @@ body {
   /* position: relative; */
 }
 
+.grid {
+  display: grid;
+  gap:1.5rem
+}
+
 .button {
   cursor: pointer;
   border: none;
@@ -146,12 +151,17 @@ body {
   font-weight: 600;
   border: none;
   cursor: pointer;
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
+  /* background-color: #768B77; */
+  border: 2px solid;
+  border-color: #768B77;
+  color: #1B262A;
 }
 
 .simple_button:hover {
-  background-color: #151516;
-  color: #fff;
+  border-color: #B1BAAB;
+  background-color: #B1BAAB;
+  color: #FAF9F6;
 }
 
 .wrap {

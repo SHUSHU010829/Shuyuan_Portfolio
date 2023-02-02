@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import Button from "../UI/Button";
 import "./style.css";
 import me from "../../assets/images/me.png";
-import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FaGithub, FaBehance, FaLinkedinIn, FaPencilAlt } from "react-icons/fa";
 
 /**
  * @author
@@ -27,12 +27,12 @@ const Myself = (props) => {
           <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li><a href="#" className="nav-links" onClick={() => setActiveNav("#home")}>Home</a></li>
-          <li><a href="#skills" className="nav-links" onClick={() => setActiveNav("#skills")}>Skills</a></li>
-          <li><a href="#project" className="nav-links" onClick={() => setActiveNav("#project")}>Project</a></li>
-          <li><a href="#contact" className="nav-links">Contact</a></li>
-          <li><a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" className="nav-links-mobile" target="_blank">Download Resume</a></li>
-          <a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" target="_blank"><button className="simple_button nav_button">Download Resume</button></a>
+          <li><a href="#" className="nav-links" onClick={() => setActiveNav("#home")}><p className="hover-underline-animation">#Home</p></a></li>
+          <li><a href="#skills" className="nav-links" onClick={() => setActiveNav("#skills")}><p className="hover-underline-animation">#Skills</p></a></li>
+          <li><a href="#project" className="nav-links" onClick={() => setActiveNav("#project")}><p className="hover-underline-animation">#Project</p></a></li>
+          <li><a href="#contact" className="nav-links"><p className="hover-underline-animation">#Contact</p></a></li>
+          <li><a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" className="nav-links-mobile" target="_blank">Resume</a></li>
+          <a href="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" target="_blank"><button className="simple_button nav_button">Resume</button></a>
         </ul>
       </nav>
       {/* ------- Self ---------*/}
@@ -44,15 +44,6 @@ const Myself = (props) => {
             </p>
             <h1 className="textColor ls-1 mtb-10">Software Developer</h1>
             <p className="font-12 grey mtb-10">Frontend Developer & UI Designer for Web and Apps.</p>
-            <div className="flexRow" style={{ margin: "30px 0" }}>
-              <a herf="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" target='_blank'><button className="button simple_button">Download Resume</button></a>
-              {/* <div>
-                <Button label="Download Resume" herf="https://drive.google.com/file/d/1Kq8Q6P4RQgYKqUKuafQi_3KbUqsq18yG/view?usp=share_link" />
-              </div>
-              <div className="mlr-10">
-                <Button label="Go to my Blog" inverse={true} herf="https://forshu.com/" />
-              </div> */}
-            </div>
           </div>
           {/* ------- logo pic ---------*/}
           <div data-aos="fade-left">

@@ -17,7 +17,7 @@ const Skills = (props) => {
     <div className="container" id='skills'>
       <Card style={{ padding: "50px" }}>
         <SmallHeading text="What I can do" />
-        <MediumHeading text="Skills" />
+        <MediumHeading text="Expertise" />
         <div className="skills_content" data-aos="fade-up">
           <h3 className="skills_title">Frontend</h3>
           <div className="skills_box_group">
