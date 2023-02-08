@@ -19,7 +19,7 @@ const Skills = (props) => {
         <SmallHeading text="What I can do" />
         <MediumHeading text="Expertise" />
         <div className="skills_content" data-aos="fade-up">
-          <h3 className="skills_title">Frontend</h3>
+          <h3 className="skills_title gradient padding"><span>Frontend</span></h3>
           <div className="skills_box_group">
             <div className="skill-box">
               <span className="title">HTML/CSS/SCSS</span>
@@ -60,7 +60,7 @@ const Skills = (props) => {
         </div>
 
         <div className="skills_content" data-aos="fade-up">
-          <h3 className="skills_title">Backend</h3>
+          <h3 className="skills_title gradient padding"><span>Backend</span></h3>
           <div className="skills_box_group">
             <div className="skill-box">
               <span className="title">MongoDB</span>
@@ -80,7 +80,7 @@ const Skills = (props) => {
         </div>
 
         <div className="skills_content" data-aos="fade-up">
-          <h3 className="skills_title">Design</h3>
+          <h3 className="skills_title gradient padding"><span>Design</span></h3>
           <div className="skills_box_group">
             <div className="skill-box">
               <span className="title">FIGMA</span>
@@ -98,7 +98,6 @@ const Skills = (props) => {
             </div>
           </div>
         </div>
-
       </Card>
     </div>
   );
