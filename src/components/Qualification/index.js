@@ -23,6 +23,11 @@ const Qualification = (props) => {
         desc="2022.07-Present"
       />
       <Tile
+        title="Feng Chia University"
+        mediumTitle="Information Engineering and Computer Science"
+        desc="2020.09-Present"
+      />
+      <Tile
         title="FCU iOSClub"
         mediumTitle="Vice Director & Word Processing"
         desc="2020-2022"

@@ -33,7 +33,7 @@ const About = (props) => {
         <div className="about_data">
           {/* <Info />  */}
           <p className="about_description">
-            Hello! I'm Shuyuan, a Software Engineer based in <span className="about_description_emphasis">Taiwan</span> who will graduate from <span><a href="https://www.fcu.edu.tw/" target="_blank" className="about_description_link">▸ Feng Chia University</a></span> with a degree in Information Engineering.
+            Hello! I'm Shuyuan, a Software Engineer based in <span className="about_description_emphasis">Taiwan</span> who will graduate from <span><a href="https://www.fcu.edu.tw/" target="_blank" className="about_description_link">▸ Feng Chia University</a></span> with a degree in Information Engineering and Computer Science.
             Currently working as an intern at <span><a href="https://www.softmobile.com.tw/" target="_blank" className="about_description_link">▸ Softmobile Technology Corporation</a></span>.
             <br />I have a passion for all things technology and design, from <span className="about_description_emphasis">software engineering</span> to <span className="about_description_emphasis">UI/UX</span>.
             <br />You can view more my portfolio on my <span><a href="https://www.behance.net/annie55063bf69" target="_blank" className="about_description_link">▸ Behance</a></span> page, or Check my <span><a href="https://github.com/FOR-Shu" target="_blank" className="about_description_link">▸ Github</a></span> for some cool things.
