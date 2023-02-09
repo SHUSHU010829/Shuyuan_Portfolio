@@ -111,15 +111,18 @@
 }
 
 .about_description_link {
-    color: #26453D;
+    color: #405D4F;
     cursor: pointer;
-    box-shadow: 0 1px;
-    padding-bottom: 3px;
-    transition: all 0.3s;
+    transition: all 0.2s;
+
+    display:inline-block;
+    border-bottom: 8px solid #cdd7c6;
+    line-height: 0.15;
 }
 
 .about_description_link:hover {
     color: burlywood;
+    border-bottom: 0px solid #B1BAAB;
 }
 
 .about_description {
