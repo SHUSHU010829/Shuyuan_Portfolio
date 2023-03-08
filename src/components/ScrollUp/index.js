@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../UI/Button";
+// import Button from "../UI/Button";
 import "./style.css";
 import { FaArrowUp } from "react-icons/fa";
 
@@ -24,7 +24,7 @@ const ScrollUp = (props) => {
 
 
   return (
-    <a className="scrollup" onClick={topFunction}>
+    <a className="scrollup" onClick={topFunction} href>
       <FaArrowUp className="scrollup_icon" />
     </a>
   );
