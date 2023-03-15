@@ -1,3 +1,4 @@
-import works from './work'
+import work from './work'
+import about from './about'
 
-export const schemaTypes = [works]
+export const schemaTypes = [work, about]
