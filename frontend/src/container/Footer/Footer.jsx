@@ -8,6 +8,7 @@ import './Footer.scss';
 const Footer = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  const [isEmpty, setIsEmpty] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const { username, email, message } = formData;
@@ -18,6 +19,14 @@ const Footer = () => {
   };
 
   const handleSubmit = () => {
+
+    if (!formData.username && !formData.email && !formData.message) {
+      setIsEmpty(true);
+      return;
+    } else {
+      setIsEmpty(false);
+    }
+
     setLoading(true);
 
     const contact = {
@@ -38,16 +47,11 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">Take a coffee & chat with me</h2>
-
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
           <a href="mailto:shuyuan010829@gmail.com" className="p-text">shuyuan010829@gmail.com</a>
         </div>
-        {/* <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">+1 (123) 456-7890</a>
-        </div> */}
       </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
@@ -67,6 +71,7 @@ const Footer = () => {
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
+          {!isEmpty? (<p className='p-text error-msg'>Don't send empty message!</p>) : (<></>)}
         </div>
       ) : (
         <div>
