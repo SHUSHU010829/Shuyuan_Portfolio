@@ -71,7 +71,7 @@ const Footer = () => {
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
-          {!isEmpty? (<p className='p-text error-msg'>Don't send empty message!</p>) : (<></>)}
+          {isEmpty? (<p className='p-text error-msg'>Don't send empty message!</p>) : (<></>)}
         </div>
       ) : (
         <div>
@@ -87,5 +87,5 @@ const Footer = () => {
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
   'contact',
-  'app__whitebg',
+  'app__primarybg',
 );

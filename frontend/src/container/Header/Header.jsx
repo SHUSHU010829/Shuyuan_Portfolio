@@ -1,9 +1,10 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
-import { AppWrap } from '../../wrapper';
-import { images } from '../../constants';
-import './Header.scss';
+import { AppWrap } from "../../wrapper";
+import { images } from "../../constants";
+import Typewriter from "typewriter-effect";
+import "./Header.scss";
 
 const scaleVariants = {
   whileInView: {
@@ -11,7 +12,7 @@ const scaleVariants = {
     opacity: [0, 1],
     transition: {
       duration: 1,
-      ease: 'easeInOut',
+      ease: "easeInOut",
     },
   },
 };
@@ -25,20 +26,28 @@ const Header = () => (
     >
       <div className="app__header-badge">
         <div className="badge-cmp app__flex">
-          <span>⸜(๑˙ᵕ ˙๑)⸝</span>
-          <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Hello, I am</p>
-            <h1 className="head-text">Shuyuan</h1>
+          <div>
+            <h1 className="head-text name-title">Shuyuan Chuang</h1>
+            <h2 className="head-text">
+              <Typewriter
+                options={{
+                  strings: [
+                    "SOFTWARE ENGINEER",
+                    "FRONTEND DEVELOPER",
+                    "APP DEVELOPER",
+                    "UI DESIGNER",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  wrapperClassName: "badge-tags",
+                  cursorClassName: "badge-tags",
+                }}
+              />
+            </h2>
           </div>
-        </div>
-
-        <div className="tag-cmp app__flex">
-          <p className="p-text">Web Developer</p>
-          <p className="p-text">UI Designer</p>
         </div>
       </div>
     </motion.div>
-
 
     <motion.div
       whileInView={{ opacity: [0, 1] }}
@@ -46,7 +55,7 @@ const Header = () => (
       className="app__header-scroll"
     >
       <section>
-        <a id='scroll-btn' href='#about'/>
+        <a href="#about" />
       </section>
     </motion.div>
 
@@ -64,4 +73,4 @@ const Header = () => (
   </div>
 );
 
-export default AppWrap(Header, 'home');
+export default AppWrap(Header, "home");
