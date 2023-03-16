@@ -194,3 +194,57 @@
     margin: 2rem 0;
   }
 }
+
+.app__header-scroll {
+  a {
+    position: absolute;
+    height: 3.5em;
+    width: 2.25em;
+    border: 0.3em solid var(--white-color);
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 4.25em;
+    border-radius: 3em;
+  }
+
+  a::before {
+    position: absolute;
+    content: "";
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0.2rem;
+    height: 0.5em;
+    width: 0.5em;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    animation: move-down 2s infinite;
+  }
+
+  @keyframes move-down {
+    80% {
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: translateY(2.1rem);
+      opacity: 0;
+    }
+  }
+
+  a::after{
+    position: absolute;
+    content: "SCROLL DOWN";
+    display: block;
+    text-align: center;
+    width: 18em;
+    left: -6.25em;
+    bottom: -4.5em;
+    font-size: 0.4em;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+
+}
