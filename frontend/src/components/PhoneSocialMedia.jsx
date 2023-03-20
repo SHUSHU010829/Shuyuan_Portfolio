@@ -4,9 +4,8 @@ import { BsBehance } from "react-icons/bs";
 import { TbBrandBlogger } from "react-icons/tb";
 import { HiDownload } from "react-icons/hi";
 
-const SocialMedia = () => (
-  <div className="app__social">
-    <p className="p-text-sm">Resume</p>
+const PhoneSocialMedia = () => (
+  <div className="app__social-phone">
     <a
       href="https://drive.google.com/drive/folders/1LooJVB79MxyRvNuEwRXf8ld_apYJP6PT?usp=share_link"
       target="_blank"
@@ -47,4 +46,4 @@ const SocialMedia = () => (
   </div>
 );
 
-export default SocialMedia;
+export default PhoneSocialMedia;

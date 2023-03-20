@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationDots, SocialMedia } from '../components';
+import { NavigationDots, SocialMedia, PhoneSocialMedia } from '../components';
 
 const AppWrap = (Component, idName, classNames) => function HOC() {
   return (
@@ -7,10 +7,10 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
       <SocialMedia />
       <div className="app__wrapper app__flex">
         <Component />
-
+        <PhoneSocialMedia />
         <div className="copyright">
           <p className="p-text">@2023 Shuyuan</p>
-          {/* <p className="p-text">All rights reserved</p> */}
+          <p className="p-text">All rights reserved</p>
         </div>
       </div>
       <NavigationDots active={idName} />
