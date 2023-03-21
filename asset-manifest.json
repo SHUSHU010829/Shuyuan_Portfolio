@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Shuyuan_Portfolio/static/css/main.e4d51aa8.css",
-    "main.js": "/Shuyuan_Portfolio/static/js/main.08715df7.js",
-    "static/js/787.43799d96.chunk.js": "/Shuyuan_Portfolio/static/js/787.43799d96.chunk.js",
-    "static/media/name.gltf": "/Shuyuan_Portfolio/static/media/name.f054762dabc0d00a17ff.gltf",
-    "static/media/tree.gltf": "/Shuyuan_Portfolio/static/media/tree.072b0e2d520c9da054e6.gltf",
-    "static/media/bg.png": "/Shuyuan_Portfolio/static/media/bg.69cd107de01d5443707b.png",
-    "static/media/logo.svg": "/Shuyuan_Portfolio/static/media/logo.e20d35fa91df1fd1e66826b648929440.svg",
-    "index.html": "/Shuyuan_Portfolio/index.html",
-    "static/media/circle.svg": "/Shuyuan_Portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.e4d51aa8.css.map": "/Shuyuan_Portfolio/static/css/main.e4d51aa8.css.map",
-    "main.08715df7.js.map": "/Shuyuan_Portfolio/static/js/main.08715df7.js.map",
-    "787.43799d96.chunk.js.map": "/Shuyuan_Portfolio/static/js/787.43799d96.chunk.js.map"
+    "main.css": "/static/css/main.0c5296a8.css",
+    "main.js": "/static/js/main.9397673c.js",
+    "static/js/787.43799d96.chunk.js": "/static/js/787.43799d96.chunk.js",
+    "static/media/name.gltf": "/static/media/name.f054762dabc0d00a17ff.gltf",
+    "static/media/tree.gltf": "/static/media/tree.072b0e2d520c9da054e6.gltf",
+    "static/media/bg.png": "/static/media/bg.69cd107de01d5443707b.png",
+    "static/media/logo.svg": "/static/media/logo.e20d35fa91df1fd1e66826b648929440.svg",
+    "index.html": "/index.html",
+    "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
+    "main.0c5296a8.css.map": "/static/css/main.0c5296a8.css.map",
+    "main.9397673c.js.map": "/static/js/main.9397673c.js.map",
+    "787.43799d96.chunk.js.map": "/static/js/787.43799d96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4d51aa8.css",
-    "static/js/main.08715df7.js"
+    "static/css/main.0c5296a8.css",
+    "static/js/main.9397673c.js"
   ]
 }
