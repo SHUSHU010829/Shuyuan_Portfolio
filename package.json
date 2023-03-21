@@ -1,6 +1,7 @@
 {
-  "name": "frontend",
+  "name": "shuyuan_portfolio",
   "version": "0.1.0",
+  "homepage": "https://shuyuanchuang.com/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.57.3",
@@ -14,6 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/three": "^0.149.0",
     "framer-motion": "^10.2.3",
+    "gh-pages": "^5.0.0",
     "node-scss": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
