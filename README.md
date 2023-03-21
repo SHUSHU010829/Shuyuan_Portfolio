@@ -12,3 +12,5 @@
 - Framer Motion
 - React Icons
 - Adobe Fonts
+- <a href="https://www.freepik.com/free-vector/mobile-app-development-isometric-background-with-composition-smartphone-screens-with-3d-app-icons-connections-vector-illustration_33771292.htm#query=ui%20designer&position=5&from_view=search&track=ais">Image by macrovector</a> on Freepik
+- <a href="https://www.freepik.com/free-vector/web-development-process_957521.htm#query=frontend%20development&position=4&from_view=search&track=ais">Image by newelement</a> on Freepik
