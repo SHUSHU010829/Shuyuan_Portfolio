@@ -1,16 +1,14 @@
 import "./Header.scss";
 
-import React, { useRef, Suspense } from "react";
+import React, { Suspense } from "react";
 import { motion } from "framer-motion";
 import { AppWrap } from "../../wrapper";
-import { models } from "../../constants";
+// import { models } from "../../constants";
 import Typewriter from "typewriter-effect";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import {
-  Stats,
   OrbitControls,
-  useGLTF,
-  ContactShadows,
+  // useGLTF,
   Sphere,
   MeshDistortMaterial,
 } from "@react-three/drei";
@@ -87,9 +85,9 @@ const Header = () => (
   </div>
 );
 
-function Model({ url }) {
-  const { scene } = useGLTF(url);
-  return <primitive object={scene} />;
-}
+// function Model({ url }) {
+//   const { scene } = useGLTF(url);
+//   return <primitive object={scene} />;
+// }
 
 export default AppWrap(Header, "home");
