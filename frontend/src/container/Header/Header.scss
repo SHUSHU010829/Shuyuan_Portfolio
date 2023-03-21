@@ -17,12 +17,115 @@
 }
 
 .app__header {
-  flex: 1;
   width: 100%;
   height: 100%;
-  flex-direction: row;
 
-  padding: 6rem 2rem 0rem;
+  .app__header-left-container {
+    display: flex;
+    // flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 5rem;
+
+    .name-text {
+      font-size: 90px;
+      color: var(--secondary-color);
+
+      @media screen and (max-width: 1200px) {
+        font-size: 70px;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 50px;
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 35px;
+      }
+    }
+
+    .app__header-work-info {
+      display: flex;
+      // justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 22px;
+
+      .work-info-text {
+        padding-right: 0.5rem;
+        text-align: left;
+        color: var(--gray-color);
+        line-height: 1.5;
+      }
+
+      .type-writer {
+        line-height: 1.5;
+        text-align: left;
+        box-shadow: inset 0 -0.55em 0 0 var(--green-color);
+      }
+
+      @media screen and (min-width: 2000px) {
+        font-size: 2.15rem;
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      padding-left: 2rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      padding-left: 0rem;
+    }
+  }
+
+  .app__header-right-container {
+    // flex: 2;
+    position: relative;
+
+    .header-model {
+      width: 50vh;
+      height: 50vh;
+
+      @media screen and (max-width: 1200px) {
+        width: 40vh;
+        height: 40vh;
+      }
+
+      @media screen and (max-width: 768px) {
+        width: 30vh;
+        height: 30vh;
+      }
+    }
+
+    img {
+      width: 450px;
+      height: auto;
+      object-fit: contain;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      animation: animate 2s infinite ease alternate;
+
+      @media only screen and (max-width: 768px) {
+        width: 200px;
+      }
+
+      @keyframes animate {
+        to {
+          transform: translateY(20px);
+        }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      padding-top: 2rem;
+    }
+
+  }
 
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
@@ -30,26 +133,6 @@
 
   @media screen and (max-width: 1200px) {
     flex-direction: column;
-  }
-
-  @media screen and (max-width: 450px) {
-    padding: 6rem 1rem 2rem;
-  }
-}
-
-.app__header-info {
-  flex: 0.65;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 100%;
-
-  margin: 0 2rem;
-
-  @media screen and (max-width: 1200px) {
-    width: 100%;
-    margin-right: 0rem;
   }
 }
 
@@ -233,7 +316,7 @@
     }
   }
 
-  a::after{
+  a::after {
     position: absolute;
     content: "SCROLL DOWN";
     display: block;

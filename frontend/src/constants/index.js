@@ -1,3 +1,4 @@
 import images from './images';
+import models from './models';
 
-export { images };
+export { images, models };

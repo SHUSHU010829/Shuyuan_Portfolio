@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://use.typekit.net/yhg2noc.css");
 
 :root {
-  --font-base: "DM Sans", sans-serif;
+  --font-base: "garamond-premier-pro-caption", serif;
 
   --primary-color: #edf2f8;
   --secondary-color: #343e3a;
